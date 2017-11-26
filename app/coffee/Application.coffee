@@ -937,7 +937,7 @@ Ext.define 'FM.Application',
     FM.File.MAX_SIZE = 5 * 1024 * 1024 # 5Mb
 
     FM.Regex = {}
-    FM.Regex.TextFilesExt = /^(txt|js|php|cpp|c|py|css|rb|tpl|inc|sh|htaccess|htm|html|xhtml|json|sql|php4|php5)$/i
+    FM.Regex.TextFilesExt = /^(txt|js|php|cpp|c|py|css|rb|tpl|inc|sh|htaccess|htm|html|xhtml|json|sql|php4|php5|log(\.[0-9]+)?)$/i
     FM.Regex.TextFilesConf = /^\.[a-z-_A-Z0-9]+$/i
 
     FM.Regex.ImageFilesExt = /^jpg|png|gif$/i
